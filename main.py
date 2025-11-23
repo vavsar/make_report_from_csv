@@ -15,7 +15,7 @@ class BaseReport(ABC):
         pass
 
 
-class PerformanceReport:
+class PerformanceReport(BaseReport):
 
     def validate_data(self, data):
         """Валидирует данные для отчета."""
